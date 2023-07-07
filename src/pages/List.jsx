@@ -1,3 +1,4 @@
+import DataTable from "../components/DataTable";
 import Navabr from "../components/Navabr";
 import SideBar from "../components/SideBar";
 import "./list.css";
@@ -9,6 +10,7 @@ const List = () => {
         <SideBar></SideBar>
         <div className="listComponet">
           <Navabr />
+          <DataTable />
         </div>
       </div>
     </>

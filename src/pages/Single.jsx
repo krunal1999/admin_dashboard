@@ -1,7 +1,16 @@
+import Navabr from "../components/Navabr"
+import SideBar from "../components/SideBar"
 
 const Single = () => {
   return (
-    <div>Single</div>
+   <>
+   <div className="single">
+    <SideBar />
+    <div className="singlecontainer">
+      <Navabr />
+    </div>
+   </div>
+   </>
   )
 }
 
