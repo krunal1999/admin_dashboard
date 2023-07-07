@@ -1,0 +1,57 @@
+.widgetBox{
+        min-width: 100px;
+        width: 240px;
+        height: 120px;
+        border: 1px solid rgb(191, 189, 189);
+        border-radius: 5px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        
+
+        display: flex;
+        justify-content: space-between;
+}
+.left{
+        padding-left: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+}
+.right{
+        padding-right: 8px;
+        position: relative;
+        }
+
+.cardtitle{
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(71, 71, 71, 0.50);
+        text-transform: uppercase;
+}
+
+.cardnumber{
+        font-weight: bold;
+        font-size: 30px;
+       
+
+}
+
+.cardLink{
+        text-decoration: underline;
+        cursor: pointer;
+        
+
+}
+.cardPercentage{
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(29, 195, 29, 0.75);
+
+}
+.cardBottonicon{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        color: rgba(219, 69, 14, 0.667);
+}

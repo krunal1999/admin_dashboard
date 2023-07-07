@@ -1,0 +1,7 @@
+.home {
+        display: flex;
+      }
+.listComponet{
+        flex-grow: 10;
+  background-color: rgba(119, 117, 117, 0.138);
+}

@@ -1,0 +1,45 @@
+.chart{
+        height: 150px;
+        width: 150px;
+        margin-bottom: 20px;
+}
+
+.bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+}
+.tops{
+        display: flex;
+        justify-content: space-between;
+        
+        align-content: center;
+        
+        margin-left: 20px;
+
+        height: 50px;
+
+}
+.tittle , .icon{
+        align-self: center;
+}
+
+.pTittle{
+
+        font-size: 20px;
+
+
+}
+.pMoney{
+        font-size: 40px;
+        color: #85bb65
+
+}
+.pSmall{
+        margin-top: 30px;
+        font-size: 12px;
+
+}
+

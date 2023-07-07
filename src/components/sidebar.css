@@ -1,0 +1,72 @@
+.sidebar{
+        flex: 2;
+        border-right: 0.5px solid rgb(212, 209, 209);
+        height: 100vh;
+        flex-basis: 50px;
+        min-width: 150px;
+}
+.top{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+}
+.logo{
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(41, 41, 211);
+
+}
+
+hr{     
+        height: 0;
+        color: black;
+        border: 0.5px solid rgb(212, 209, 209);
+
+}
+.center{
+        margin: auto;
+
+}
+ul{
+        margin-top: 10px;
+        padding: 0;
+        
+
+}
+li{
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        
+        font-size: 16px;
+}
+li:hover{
+        background-color: rgb(223, 217, 223);
+}
+.title{
+        font-size: 15px;
+        font-weight: bold;
+        color: #999;
+        margin-bottom: 5px;
+        margin-top: 15px;
+        text-align: center;
+        
+
+}
+
+.icon{
+        font-size: 18px;
+        color: rgb(96, 96, 235);
+
+}
+
+span{
+        font-size: 13px;
+        font-weight: 600;
+        columns: #888;
+        margin-left: 10px;
+}
